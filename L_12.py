@@ -1,0 +1,5 @@
+sonlar = list(range(-1,10))
+son = list(filter(lambda x : x % 2 == 0,sonlar))
+print(son)
+kvadrat = list(map(lambda x : x * x, son))
+print(kvadrat)
